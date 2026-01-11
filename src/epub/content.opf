@@ -36,9 +36,11 @@
 		<meta property="se:subject">Science Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
 		<meta property="se:is-a-collection">true</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A collection of short fiction by Clark Ashton Smith, ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/clark-ashton-smith"&gt;Clark Ashton Smith&lt;/a&gt; began his literary career as a poet and author of general fiction. By the late 1920s he started writing fantasy and science fiction stories to pulp magazines of the time, these stories being his claim to fame in modern times.&lt;/p&gt;
+			&lt;p&gt;Smith was a frequent correspondent of other authors of the time, especially &lt;a href="https://standardebooks.org/ebooks/h-p-lovecraft"&gt;H. P. Lovecraft&lt;/a&gt;, whom he developed a literary friendship until the later’s death. Most of Smith’s better known tales were collected after his death, making them available to a larger audience compared to his pulp magazine days.&lt;/p&gt;
+			&lt;p&gt;The stories collected here are the ones known to have lapsed into public domain, ordered by their date of original publication.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- The Malay Krise -->
