@@ -39,8 +39,9 @@
 		<dc:description id="description">A collection of short fiction by Clark Ashton Smith, ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/clark-ashton-smith"&gt;Clark Ashton Smith&lt;/a&gt; began his literary career as a poet and author of general fiction. By the late 1920s he started writing fantasy and science fiction stories to pulp magazines of the time, these stories being his claim to fame in modern times.&lt;/p&gt;
+			&lt;p&gt;Smith’s tales present a variety of themes and plots. Stories like “The End of the Story” involve pagan entities and the fictional location of Averoigne; “Marooned in Andromeda” has the protagonists exploring an uncharted planet. Smith also wrote weird fiction, featuring demons and other supernatural beings, like “The Abominations of Yondo.” He also wrote some more realistic stories earlier in his career, without any supernatural elements.&lt;/p&gt;
 			&lt;p&gt;Smith was a frequent correspondent of other authors of the time, especially &lt;a href="https://standardebooks.org/ebooks/h-p-lovecraft"&gt;H. P. Lovecraft&lt;/a&gt;, whom he developed a literary friendship until the later’s death. Most of Smith’s better known tales were collected after his death, making them available to a larger audience compared to his pulp magazine days.&lt;/p&gt;
-			&lt;p&gt;The stories collected here are the ones known to have lapsed into public domain, ordered by their date of original publication.&lt;/p&gt;
+			&lt;p&gt;The stories collected here are the ones known to have lapsed into public domain, ordered by their date of original publication. Some of his more famous works, such as “The Dark Eidolon” and “The City of the Singing Flame” are not in the public domain and are not part of the collection at this time.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- The Malay Krise -->
