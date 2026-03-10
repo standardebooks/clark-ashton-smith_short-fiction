@@ -2,6 +2,18 @@
 <se-lint-ignore>
 	<file path="content.opf">
 		<ignore code="m-007">
+			<line>48</line>
+			<line>51</line>
+			<line>54</line>
+			<line>57</line>
+			<line>60</line>
+			<line>63</line>
+			<line>66</line>
+			<line>69</line>
+			<line>72</line>
+			<line>75</line>
+			<line>78</line>
+			<line>81</line>
 			<reason>The URL contains the page in which the story begins, for ease of access.</reason>
 		</ignore>
 	</file>
