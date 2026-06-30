@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/clark-ashton-smith/short-fiction</dc:identifier>
 		<dc:date>2026-01-18T23:37:51Z</dc:date>
 		<meta property="dcterms:modified">2026-01-18T23:37:51Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -32,10 +33,10 @@
 		<dc:subject id="subject-1">Fantasy fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85047114</meta>
-		<meta property="se:subject">Fantasy</meta>
-		<meta property="se:subject">Science Fiction</meta>
-		<meta property="se:subject">Shorts</meta>
-		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:genre">Fantasy</meta>
+		<meta property="schema:genre">Science Fiction</meta>
+		<meta property="schema:genre">Shorts</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<dc:description id="description">A collection of short fiction by Clark Ashton Smith, ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/clark-ashton-smith"&gt;Clark Ashton Smith&lt;/a&gt; began his literary career as a poet and author of fiction. By the late 1920s he started writing fantasy and science fiction stories for pulp magazines; after his death, many of his better-known weird tales were published as collections, making them available to a larger audience and ultimately cementing them as his claim to fame.&lt;/p&gt;
@@ -79,29 +80,30 @@
 		<!-- The Uncharted Isle -->
 		<dc:source>http://www.eldritchdark.com/writings/short-stories/226/the-uncharted-isle</dc:source>
 		<dc:source>https://archive.org/details/Weird_Tales_v16n05_1930-11_sas/page/n29/mode/2up</dc:source>
-		<meta property="se:production-notes">Some stories ("The Flirt," "Something New" and "Murder in the Fourth Dimension") are in the public domain but no scans have been located, so they were not added to this collection.</meta>
-		<meta property="se:word-count">41278</meta>
-		<meta property="se:reading-ease.flesch">64.95</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Clark_Ashton_Smith_bibliography</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/clark-ashton-smith_short-fiction</meta>
+		<meta property="schema:wordCount">41278</meta>
+		<meta property="schema:educationalLevel">64.95</meta>
+		<link href="https://en.wikipedia.org/wiki/Clark_Ashton_Smith_bibliography" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/clark-ashton-smith_short-fiction" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Clark Ashton Smith</dc:creator>
 		<meta property="file-as" refines="#author">Smith, Clark Ashton</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Clark_Ashton_Smith</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79041874</meta>
+		<link href="https://en.wikipedia.org/wiki/Clark_Ashton_Smith" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79041874.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Henry Fuseli</dc:contributor>
 		<meta property="file-as" refines="#artist">Fuseli, Henry</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Henry_Fuseli</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79021856</meta>
+		<link href="https://en.wikipedia.org/wiki/Henry_Fuseli" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79021856.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">The Eldritch Dark</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Eldritch Dark, The</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">http://www.eldritchdark.com/</meta>
+		<link href="http://www.eldritchdark.com/" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Hendrik Kaiber</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Kaiber, Hendrik</meta>
-		<meta property="se:name.person.full-name" refines="#producer-1">Hendrik de Wetterle Bonow Kaiber</meta>
+		<meta property="schema:alternateName" refines="#producer-1">Hendrik de Wetterle Bonow Kaiber</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
