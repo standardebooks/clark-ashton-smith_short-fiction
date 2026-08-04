@@ -37,7 +37,7 @@
 		<meta property="schema:genre">Science Fiction</meta>
 		<meta property="schema:genre">Shorts</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<dc:abstract>A collection of short fiction by Clark Ashton Smith, ordered by date of publication.</dc:abstract>
+		<meta property="schema:abstract">A collection of short fiction by Clark Ashton Smith, ordered by date of publication.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/clark-ashton-smith"&gt;Clark Ashton Smith&lt;/a&gt; began his literary career as a poet and author of fiction. By the late 1920s he started writing fantasy and science fiction stories for pulp magazines; after his death, many of his better-known weird tales were published as collections, making them available to a larger audience and ultimately cementing them as his claim to fame.&lt;/p&gt;
 			&lt;p&gt;While Smith wrote a few more realistic stories without any supernatural elements earlier in his career, the stories in this collection mostly involve weird fiction. “The End of the Story” involves pagan entities and the fictional location of Averoigne; “Marooned in Andromeda” has the protagonists exploring an uncharted planet. Smith also wrote fiction featuring demons and other uncanny beings, like “The Abominations of Yondo.” His frequent correspondence with &lt;a href="https://standardebooks.org/ebooks/h-p-lovecraft"&gt;H. P. Lovecraft&lt;/a&gt; led to a literary friendship that lasted until the latter’s death, with the cross-pollination of influences clear in each of their respective bodies of work.&lt;/p&gt;
